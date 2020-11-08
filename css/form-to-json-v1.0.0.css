@@ -1,0 +1,60 @@
+/**
+ * Name: Form to JSON
+ * Description: Create JSON object from a form submission using jQuery
+ * Version: 1.0.0
+ * Author: Shrikumar Infotech
+ * Author URI: dev@shrikumarinfotech.com
+ * License: MIT
+ * Lincense URI: https://opensource.org/licenses/MIT
+ */
+html {
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 67.5%;
+}
+
+* {
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+}
+
+body {
+  font-size: 1.6rem;
+  color: #000000;
+  background-color: #ffffff;
+}
+
+label {
+  font-weight: bold;
+}
+
+.form-row {
+  margin-top: 5px;
+  margin-bottom: 5px;
+}
+
+.form-input-field {
+  width: 350px;
+  padding: 4px;
+  font-size: 1.4rem;
+}
+
+.form-submit-btn {
+  padding: 10px 25px;
+  color: #ffffff;
+  background-color: #3f3f3f;
+  border-radius: 0;
+  border: 0;
+  -webkit-box-shadow: none;
+          box-shadow: none;
+  cursor: pointer;
+}
+
+.form-submit-btn:hover {
+  color: #ffffff;
+  background-color: #000000;
+}
+
+.results .result-json-output {
+  color: #0066ff;
+}
+/*# sourceMappingURL=form-to-json-v1.0.0.css.map */
