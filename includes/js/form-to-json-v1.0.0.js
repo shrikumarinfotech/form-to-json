@@ -67,7 +67,7 @@ jQuery(function( $ ){
                 const regxSpace = /(?:%20)/gi;
                 const regxEmail = /(?:%40)/gi;
                 const regxLineBreak = /(?:%0D%0A)/gi;
-                // save data by replacing with regx and plit with '&' as parts
+                // save data by replacing with regx and split with '&' as parts
                 let sortedData = data.replace(regxSpace, ' ').replace(regxEmail, '@').replace(regxLineBreak, '\n').split('&');
                 // iterate through sortedData and save as array into submittedData
                 $(sortedData).each(function(index, element){
