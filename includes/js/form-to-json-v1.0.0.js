@@ -103,12 +103,16 @@ jQuery(function( $ ){
             let stringifyJsonData = JSON.stringify(jsonOutputData);
 
             // check if output target is provided
-            if(resultContainer != undefined || resultContainer != null){
+            if(resultContainer !== undefined || resultContainer !== null){
                 $(jsonOutputData).promise().done(function(){
                     $(resultContainer).html( stringifyJsonData );
+                    // return stringifyJsonData;
+                    console.log(stringifyJsonData); // log the JSON data
                 });
             }
             else{
+                // else just return the JSON data
+                console.log('resultContainer undefined');
                 return stringifyJsonData;
             }
         }
